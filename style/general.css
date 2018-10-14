@@ -1,0 +1,25 @@
+button:focus, .btn-secondary:focus, .btn-secondary.focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.main-backgrund-color{
+    background-color: #d8e8ec;
+}
+
+.secondary-background-color{
+    background-color: #f3f3f3;;
+}
+
+.main-button-style{
+    background-color: #003a51;
+    color: white;
+}
+
+.no-padding-right{
+    padding-right: 0;
+}
+
+.no-padding-left{
+    padding-left: 0;
+}

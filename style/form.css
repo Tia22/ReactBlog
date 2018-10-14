@@ -1,0 +1,19 @@
+.modal-content{
+    background: #f3f3f3;
+}
+
+#btn-submit-form{
+    padding: 8px 30px;
+}
+
+
+/*desktop*/
+@media screen and (min-width: 900px){
+    .modal-dialog{
+        max-width: 650px;
+    }
+
+    .modal-body{
+        margin: 35px 50px;
+    }
+}

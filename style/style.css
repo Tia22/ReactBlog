@@ -1,0 +1,104 @@
+@import "general.css";
+@import "form.css";
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color: #003a51;
+}
+
+.main-container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.jumbotron{
+    border-radius: 0;
+}
+
+.checkout-logo{
+    max-width: 214px;
+    width: 100%;
+}
+
+.add-post-container{
+    text-align: right;
+}
+
+.btn-add-post{
+    text-transform: uppercase;
+    padding: 15px 20px;
+}
+
+.posts-container .row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.post-img{
+    width: 100%;
+}
+
+.post-content{
+    padding-left: 30px;
+}
+
+.btn-container{
+    max-width: 120px;
+    height: 25px;
+    margin: 0 0 0 auto;
+    text-align: center;
+    opacity: 0.85;
+}
+
+.btn-edit-post, .btn-delete-post{
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    font-size: 12px;
+}
+
+.btn-edit-post{
+   padding-right: 14px;
+}
+
+.btn-delete-post{
+    padding-left: 15px;
+    border-left: 1px solid white;
+    line-height: 10px;
+}
+
+.btn-edit-post:hover, .btn-delete-post:hover{
+    background-color: initial;
+    border:initial;
+}
+
+.post-date{
+    margin: 11px 0;
+    font-size: 12px;
+    color: #003a51;
+}
+
+.post-title{
+    max-width: 360px;
+    font-size: 20px;
+}
+
+.post-description{
+    max-width: 450px;
+    line-height: 21px;
+    font-size: 14px;
+    color: #003a51;
+    opacity: 0.7;
+}
+
+.hidden {
+    display: none;
+}
+
+.post-row{
+    margin-bottom: 20px;
+}
